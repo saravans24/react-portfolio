@@ -12,7 +12,7 @@ const About = () => {
     useEffect(() => {
         return setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 3000)
+        }, 500)
     },[])
 
     return(
